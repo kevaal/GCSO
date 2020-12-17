@@ -5,9 +5,9 @@ function setup() {
   createCanvas(1600,400);
 
   speed=random(55,90)
-  weight=random(400,1500)
+  weight=random(200,1500)
 
-  car=createSprite(400, 200, 50, 50);
+  car=createSprite(50, 200, 50, 50);
   car.velocityX=speed;
   car.shapecolor=color(255);
 
